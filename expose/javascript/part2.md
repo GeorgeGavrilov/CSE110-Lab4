@@ -40,7 +40,7 @@ C. Calling the function for the greeting property in the student object <br />
 student.greeting() <br />
 D. Accessing the name property of the object in the Favorite Teacher property in student <br />
 student['Favorite Teacher'].name <br />
-E. Access the first index in the array of the courseLoad property of the student object
+E. Access the first index in the array of the courseLoad property of the student object <br />
 student.courseLoad[0] <br />
 
 13.
