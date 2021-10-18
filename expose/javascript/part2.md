@@ -21,3 +21,12 @@ It prints '150', the value of 'finalPrice' after the last iteration of the forlo
 
 8. What will this function return? Give a brief explanation. If the code causes an error, explain why. <br />
 It still returns an array that holds values [50,100,150], which is all the final prices after the discount was applied to all of the individual prices in the array passed into the function. Although we did use some temporary values to calculate the prices, we were able to save them right before those values got out of scope <br />
+
+9. What will happen at line 11 and why? If the code causes an error, explain why. <br />
+It returns an error (it gives an error because the 'i' after the forloop is out of the scope and can't be accessed no more. <br />
+
+10. What will happen at line 12 and why? If the code causes an error, explain why. <br />
+It prints '3', since this is the length of the array that was passed in. <br />
+
+11. What will this function return? Give a brief explanation. If the code causes an error, explain why. <br />
+It returns an array that holds values [50,100,150], which is all the final prices after the discount was applied to all of the individual prices in the array passed into the function. The reason this works is although we do have a const within the forloop, we keep INITIALIZING it over and over instead of REASSIGNING the value of it, so it still works. <br />
