@@ -63,3 +63,15 @@ F. true === Boolean(2) returns true (Boolean(2) converts digit 2 into an actual 
 
 15. Explain the difference between the == and === operators. <br />
 A strict equality operator '===' checks the equality without type conversion, while '==' can convert the types of variable for the comparison <br />
+
+16. Answer in part2-question16.js <br />
+
+17. What the current function does is whichever array you pass into it, it will return the same array back with all of its values multiplied by 2. You call modifyArray function to take that array as an input and iterate through it, and within modifyArray function you callback doSomething function to multiply individual elements of that array by 2. <br />
+
+18. Answer in part2-question18.js <br />
+
+19. What is the output of the above code? <br />
+```1
+4
+3
+2```
