@@ -71,7 +71,10 @@ A strict equality operator '===' checks the equality without type conversion, wh
 18. Answer in part2-question18.js <br />
 
 19. What is the output of the above code? <br />
-```1
+```
+1
 4
 3
-2```
+2
+```
+<br />
