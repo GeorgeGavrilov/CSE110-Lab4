@@ -52,3 +52,14 @@ E. true + 3 = 4 (true is converted into a digit 1) <br />
 F. false + null = 0 (both false and null get converted into 0, a digit) <br />
 G. '3' + undefined = '3undefined' (undefined converted into a string) <br />
 H.  '3' - undefined = NaN (undefined converts int NaN, which turns this entire expression into NaN) <br />
+
+14. Comparison <br />
+A. ‘2’ > 1 returns true ('2' is converted into a digit) <br />
+B. ‘2’ < ‘12’ returns false (strings are compared letter-by-letter in the “dictionary” order, and '12' is smaller in that case) <br />
+C. 2 == ‘2’ returns true ('2' is converted into a digit) <br />
+D. 2 === ‘2’ returns false (they are not the same type, therefore, false) <br />
+E. true == 2 returns false (true turns into 1, which makes the statement false) <br />
+F. true === Boolean(2) returns true (Boolean(2) converts digit 2 into an actual boolean with a value of 'true') <br />
+
+15. Explain the difference between the == and === operators. <br />
+A strict equality operator '===' checks the equality without type conversion, while '==' can convert the types of variable for the comparison <br />
