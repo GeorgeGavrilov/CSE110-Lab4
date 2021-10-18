@@ -30,3 +30,17 @@ It prints '3', since this is the length of the array that was passed in. <br />
 
 11. What will this function return? Give a brief explanation. If the code causes an error, explain why. <br />
 It returns an array that holds values [50,100,150], which is all the final prices after the discount was applied to all of the individual prices in the array passed into the function. The reason this works is although we do have a const within the forloop, we keep INITIALIZING it over and over instead of REASSIGNING the value of it, so it still works. <br />
+
+12. <br />
+A. Accessing the value of the name property in the student object <br />
+student.name <br />
+B. Accessing the value of the Grad Year property in the student object <br />
+student['Grad Year'] <br />
+C. Calling the function for the greeting property in the student object <br />
+student.greeting() <br />
+D. Accessing the name property of the object in the Favorite Teacher property in student <br />
+student['Favorite Teacher'].name <br />
+E. Access the first index in the array of the courseLoad property of the student object
+student.courseLoad[0] <br />
+
+13.
