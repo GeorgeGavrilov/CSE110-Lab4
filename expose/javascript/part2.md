@@ -43,4 +43,12 @@ student['Favorite Teacher'].name <br />
 E. Access the first index in the array of the courseLoad property of the student object <br />
 student.courseLoad[0] <br />
 
-13.
+13. Arithmetic <br />
+A. ‘3’ + 2 = '32' (the digit 2 maps to a string "2") <br />
+B. ‘3’ - 2 = 1 (numeric conversion of string '3') <br />
+C. 3 + null = 3 (null is converted to digit 0) <br />
+D. '3’ + null = '3null' (null is converted into a string "null") <br />
+E. true + 3 = 4 (true is converted into a digit 1) <br />
+F. false + null = 0 (both false and null get converted into 0, a digit) <br />
+G. '3' + undefined = '3undefined' (undefined converted into a string) <br />
+H.  '3' - undefined = NaN (undefined converts int NaN, which turns this entire expression into NaN) <br />
